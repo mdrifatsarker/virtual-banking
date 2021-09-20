@@ -16,7 +16,7 @@
   <!-- header -->
   <header>
     <!-- navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark ">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
       <a class="navbar-brand" href="#">dolla</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -29,21 +29,22 @@
             <a class="nav-link" href="#">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
+            <a class="nav-link" href="#about">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Discover</a>
+            <a class="nav-link" href="#discover">Discover</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Services</a>
+            <a class="nav-link" href="#services">Services</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Sign Up</a>
+            <a class="nav-link" href="#signUp">Sign Up</a>
           </li>
         </ul>
           <button class="btn btn-success text-dark" type="submit">Sing In</button>
       </div>
     </nav>
+    <!-- end of navbar -->
     <div class="mid">
       <video autoplay muted loop>
         <source class="embed-responsive" src="viedo/1.mp4">
@@ -54,12 +55,72 @@
         <a class="text-dark" href="#">Ger Started</a>
       </div>
     </div>
-
- 
-    <!-- end of navbar -->
+    
   </header>
   <!-- end of header -->
 
+  <!-- about section -->
+  <section id="about" class="about py-5">
+    <div class="container">
+      <div class="row align-items-center my-5">
+        <div class="text col-lg-6 col-md-6 col-12 pt-5 b-5">
+          <h6>PREMIUM BANK</h6>
+          <h2>Unlimited Transaction with zero fees</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus quam voluptatem quae nam omnis repudiandae
+          repellendus amet id nulla eius.</p>
+          <a href="#">Learn More</a>
+        </div>
+        <div class="img col-lg-6 col-md-6 col-12 pt-5 pb-5">
+          <img src="img/1.svg" alt="aboutImage" class="img-fluid">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end of about section -->
+  
+  <!-- discover section -->
+  <section id="discover" class="discovery py-5">
+    <div class="container">
+      <div class="row align-items-center my-5">
+        <div class="img col-lg-6 col-md-6 col-12 pt-5 pb-5">
+          <img src="img/2.png" alt="aboutImage" class="img-fluid">
+        </div>
+        <div class="text col-lg-6 col-md-6 col-12 pt-5 b-5">
+          <h6>PREMIUM BANK</h6>
+          <h2>Unlimited Transaction with zero fees</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus quam voluptatem quae nam omnis repudiandae
+            repellendus amet id nulla eius.</p>
+          <a href="#">Learn More</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end of discover section -->
+
+  <!-- services section -->
+  <section class="service py-5" id="services">
+      <div class="heading text-center pt-5">
+        <h2 class="font-weight-bold pb-5 text-light">Our Services</h2>
+      </div>
+      <div class="row mx-auto justify-content-center align-items-center container">
+        <div class="one col-lg-3 col-md-8 col-11 w-25 m-2">
+          <img src="img/1.svg" alt="" class="img-fluid w-75">
+          <h1 class="font-weight-bold pt-4">Reduce Expense</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, assumenda!</p>
+        </div>
+        <div class="one col-lg-3 col-md-8 col-11 w-25 m-2">
+          <img src="img/2.png" alt="" class="img-fluid w-75">
+          <h1 class="font-weight-bold pt-4">Virtual Offices</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, assumenda!</p>
+        </div>
+        <div class="one col-lg-3 col-md-8 col-11 w-25 m-2">
+          <img src="img/3.png" alt="" class="img-fluid w-75">
+          <h1 class="font-weight-bold pt-4">Premium Benifities</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, assumenda!</p>
+        </div>
+      </div>
+  </section>
+  <!-- end of services section -->
 
 
   <!-- jquery -->
