@@ -152,3 +152,44 @@
   padding: 2rem .5rem;
   border-radius: 0.8rem;
 }
+/* sing in section */
+.sign {
+  background: #fff;
+}
+
+.sign .text {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.sign .text h6 {
+  color: #00bf85;
+  font-weight: 800;
+  font-size: 1rem;
+  letter-spacing: 2px;
+}
+
+.sign .text h2 {
+  color: #111;
+  font-weight: 700;
+  font-size: 2.7rem;
+}
+
+.sign .text p {
+  font-weight: 400;
+  font-size: 1.1rem;
+  letter-spacing: 0.5px;
+}
+
+.sign .text a {
+  background: #111;
+  color: #fff;
+  padding: 0.6rem 1.6rem;
+  border-radius: 1.875rem;
+}
+/* footer{
+  background: #000;
+  color: #fff;
+} */
